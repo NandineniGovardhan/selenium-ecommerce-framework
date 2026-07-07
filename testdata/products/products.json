@@ -1,0 +1,31 @@
+{
+  "products": [
+    {
+      "product_id": "P1001",
+      "name": "Classic Cotton T-Shirt",
+      "category": "Apparel",
+      "price": 19.99,
+      "available_sizes": ["S", "M", "L", "XL"],
+      "available_colors": ["Black", "White", "Navy"],
+      "in_stock": true
+    },
+    {
+      "product_id": "P1002",
+      "name": "Running Sneakers",
+      "category": "Footwear",
+      "price": 74.5,
+      "available_sizes": ["7", "8", "9", "10", "11"],
+      "available_colors": ["Grey", "Red"],
+      "in_stock": true
+    },
+    {
+      "product_id": "P1003",
+      "name": "Wireless Noise-Cancelling Headphones",
+      "category": "Electronics",
+      "price": 149.0,
+      "available_sizes": [],
+      "available_colors": ["Black", "Silver"],
+      "in_stock": false
+    }
+  ]
+}

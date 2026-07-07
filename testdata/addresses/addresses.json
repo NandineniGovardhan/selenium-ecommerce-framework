@@ -1,0 +1,22 @@
+{
+  "addresses": [
+    {
+      "label": "default_shipping",
+      "full_name": "Alex Morgan",
+      "address_line1": "221B Baker Street",
+      "city": "Springfield",
+      "state": "Illinois",
+      "zip_code": "62701",
+      "country": "United States"
+    },
+    {
+      "label": "alternate_shipping",
+      "full_name": "Jamie Rivera",
+      "address_line1": "45 Maple Avenue",
+      "city": "Georgetown",
+      "state": "Ontario",
+      "zip_code": "L7G 1A1",
+      "country": "Canada"
+    }
+  ]
+}

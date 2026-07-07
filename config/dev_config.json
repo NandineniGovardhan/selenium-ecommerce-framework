@@ -1,0 +1,11 @@
+{
+  "environment": "dev",
+  "base_url": "https://dev.demo-ecommerce.example.com",
+  "api_base_url": "https://dev-api.demo-ecommerce.example.com",
+  "default_timeout": 15,
+  "db": {
+    "host": "dev-db.internal.example.com",
+    "port": 5432,
+    "name": "ecommerce_dev"
+  }
+}

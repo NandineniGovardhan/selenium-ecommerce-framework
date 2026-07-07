@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "role": "standard_user",
+      "username": "standard_user_demo",
+      "password": "${STANDARD_USER_PASSWORD}",
+      "email": "standard.user@demo-ecommerce.example.com",
+      "first_name": "Alex",
+      "last_name": "Morgan"
+    },
+    {
+      "role": "locked_out_user",
+      "username": "locked_out_user_demo",
+      "password": "${LOCKED_OUT_USER_PASSWORD}",
+      "email": "locked.user@demo-ecommerce.example.com",
+      "first_name": "Jamie",
+      "last_name": "Rivera"
+    },
+    {
+      "role": "invalid_user",
+      "username": "invalid_user_demo",
+      "password": "${INVALID_USER_PASSWORD}",
+      "email": "invalid.user@demo-ecommerce.example.com",
+      "first_name": "N/A",
+      "last_name": "N/A"
+    }
+  ]
+}

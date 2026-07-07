@@ -1,0 +1,11 @@
+{
+  "environment": "qa",
+  "base_url": "https://qa.demo-ecommerce.example.com",
+  "api_base_url": "https://qa-api.demo-ecommerce.example.com",
+  "default_timeout": 15,
+  "db": {
+    "host": "qa-db.internal.example.com",
+    "port": 5432,
+    "name": "ecommerce_qa"
+  }
+}

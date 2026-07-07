@@ -1,0 +1,51 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.Python
+build/
+dist/
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- IDE ---
+.vscode/*
+!.vscode/settings.json
+.idea/
+
+# --- Pytest / test artifacts ---
+.pytest_cache/
+.cache/
+
+# --- Framework generated output (never committed) ---
+reports/*.html
+reports/*
+!reports/.gitkeep
+logs/*
+!logs/.gitkeep
+screenshots/*
+!screenshots/.gitkeep
+
+# --- Browser drivers (managed automatically via webdriver-manager) ---
+drivers/*
+!drivers/.gitkeep
+*.exe
+
+# --- Secrets / environment files ---
+.env
+.env.*
+!.env.example
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Parallel execution artifacts ---
+.pytest_cache/
+*.xml

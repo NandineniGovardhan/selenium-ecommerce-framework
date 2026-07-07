@@ -1,0 +1,30 @@
+{
+  "orders": [
+    {
+      "order_reference": "ORD-DEMO-0001",
+      "product_id": "P1001",
+      "quantity": 2,
+      "size": "M",
+      "color": "Black",
+      "address_label": "default_shipping",
+      "payment": {
+        "card_number": "${TEST_CARD_NUMBER}",
+        "expiry": "${TEST_CARD_EXPIRY}",
+        "cvv": "${TEST_CARD_CVV}"
+      }
+    },
+    {
+      "order_reference": "ORD-DEMO-0002",
+      "product_id": "P1002",
+      "quantity": 1,
+      "size": "9",
+      "color": "Grey",
+      "address_label": "alternate_shipping",
+      "payment": {
+        "card_number": "${TEST_CARD_NUMBER}",
+        "expiry": "${TEST_CARD_EXPIRY}",
+        "cvv": "${TEST_CARD_CVV}"
+      }
+    }
+  ]
+}
